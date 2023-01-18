@@ -1,17 +1,17 @@
 app:
   name: wordpress
   code: wordpress
-  notify: appzdev@cloudbourne.co
+  notify: aramanan@ecloudcontrol.com
 
 build:
-  version: 5.5
+  version: 5.8
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: wordpress-5.5
+  image_template: wordpress-5.8
 
 deploy:
-  context: alpha/DEV
+  context: aryam21/DEV
   replicas: 1
   type: statefulset
   port:
