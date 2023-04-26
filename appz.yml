@@ -4,11 +4,11 @@ app:
   notify: aramanan@ecloudcontrol.com
 
 build:
-  version: 6.1
+  version: 6.2
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: wordpress-6.2
+  image_template: wordpress-6.1
 
 deploy:
   context: aryam21/DEV
