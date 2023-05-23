@@ -4,11 +4,11 @@ app:
   notify: aramanan@ecloudcontrol.com
 
 build:
-  version: 6.2
+  version: 5.8
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: wordpress-6.2
+  image_template: wordpress-5.8
 
 deploy:
   context: aryam21/DEV
@@ -28,7 +28,7 @@ volumes:
   size: 5Gi 
   
 properties:
-  SITE_URL: "https://aryam21-dev-appz.038ecc66.lowtouch.cloud"
+  SITE_URL: "https://aryam21-dev-appz.038c839d.lowtouch.cloud"
   ENABLE_HA: "no"  
   #if HA is disabled
   MYSQL_HOST : "mariadb-master-10-4:3306"
@@ -43,5 +43,5 @@ properties:
   MYSQL_PASSWORD:
      vault: MYSQL_WORDPRESS_PASSWORD
   #Generate hash at https://ehikioya.com/wordpress-password-hash-generator/
-  ADMIN_PASSWORD_HASH: $P$BQCpmfbBh5Pl9wHqoWeE.hEBqKxEK0/
+  ADMIN_PASSWORD_HASH: $P$BKt95UuLBco6DErFh9EvKHpTua4wwV/
   revision : 87
