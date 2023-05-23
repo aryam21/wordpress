@@ -28,7 +28,7 @@ volumes:
   size: 5Gi 
   
 properties:
-  SITE_URL: "https://aryam21-dev-appz.038c839d.lowtouch.cloud"
+  SITE_URL: "https://aryam21-dev-wordpress-5-8.038c839d.lowtouch.cloud"
   ENABLE_HA: "no"  
   #if HA is disabled
   MYSQL_HOST : "mariadb-master-10-4:3306"
