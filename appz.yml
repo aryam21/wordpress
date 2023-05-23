@@ -39,6 +39,7 @@ properties:
   MYSQL_DATABASE: wordpress
   ADMIN_USER: wpadmin
   ADMIN_EMAIL: appzdev@cloudbourne.co
+  APPZ_FILESYNC_HOSTNAME: wordpress-0
   SITE_TITLE: "Wordpress AppZ Workshop Demo"
   MYSQL_PASSWORD:
      vault: MYSQL_WORDPRESS_PASSWORD
