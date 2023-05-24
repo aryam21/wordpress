@@ -43,6 +43,8 @@ properties:
   APPZ_FILESYNC_HOSTNAME: wordpress-0
   SITE_TITLE: "Wordpress AppZ Workshop Demo"
   MYSQL_PASSWORD:
+     vault: MYSQL_ WORDPRESS_PASSWORD
+  MYSQL_PASSWORD:
      vault: MYSQL_ROOT_PASSWORD_KEY
      
   #Generate hash at https://ehikioya.com/wordpress-password-hash-generator/
