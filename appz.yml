@@ -29,7 +29,7 @@ volumes:
   size: 5Gi 
   
 properties:
-  #SITE_URL: "https://aryam21-dev-wordpress-5-8.038c839d.lowtouch.cloud"
+  SITE_URL: "https://aryam21-dev-wordpress-5-8.038c839d.lowtouch.cloud"
   ENABLE_HA: "no"  
   #if HA is disabled
   MYSQL_HOST : "mariadb-master-10-4:3306"
@@ -42,7 +42,7 @@ properties:
   ADMIN_EMAIL: appzdev@cloudbourne.co
   APPZ_FILESYNC_HOSTNAME: wordpress-0
   SITE_TITLE: "Wordpress AppZ Workshop Demo"
-  MYSQL_PASSWORD:
+  MYSQL_WORDPRESS_PASSWORD:
      vault: MYSQL_PASSWORD
   #Generate hash at https://ehikioya.com/wordpress-password-hash-generator/
   ADMIN_PASSWORD_HASH: $P$BKt95UuLBco6DErFh9EvKHpTua4wwV/
